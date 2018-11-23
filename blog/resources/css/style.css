@@ -1,0 +1,159 @@
+/* ===========================================
+    Project: Blog post in php
+    Default Theme
+    ------------------------------------------
+    Fonts: Raleway & Open Sans
+    ------------------------------------------
+    Colors:
+      Black:                    #000
+=========================================== */
+
+/* ===========================================
+    Global Styles
+===========================================*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 140px;
+}
+
+/* ===========================================
+    Navigation
+===========================================*/
+nav.navbar {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 0 8px 6px -9px #999;
+  font-size: 120%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  line-height: 4.5;
+
+}
+
+a.navbar-brand {
+  font-size: 185%;
+}
+
+i.fab.fa-blogger {
+  color: teal;
+}
+
+/* ===========================================
+    Blog page
+===========================================*/
+.row-bottom-space {
+  margin-bottom: 30px;
+}
+
+textarea {
+  height: 350px;
+}
+
+.btn {
+  color: #fff;
+  font-weight: 600;
+  min-width: 100px;
+}
+
+.btn:hover {
+  color: #000;
+}
+
+h6#name {
+  border-bottom: 2px solid #f8c803;
+  display: inline-block;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 145%;
+}
+
+h6#date {
+  color: #b2b2b2;
+  margin-bottom: 25px
+}
+
+.item-box {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  padding: 35px;
+  margin-bottom: 35px;
+  line-height: 1.9;
+}
+
+.blog-title {
+  font-weight: 700;
+  border-bottom: 4px double #333;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 6px;
+  color: teal;
+  width: 100%;
+}
+
+.blog-content {
+  border-right: 1px dotted #333;
+  padding-right: 20px;
+}
+
+div.date {
+  color: #b2b2b2;
+  font-size: small;
+  font-style: italic;
+}
+
+div.author {
+  color: #b2b2b2;
+  font-size: small;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+i.far.fa-user-circle {
+  font-size: 270%;
+  margin-bottom: 30px;
+}
+
+i.fas.fa-user-lock {
+  font-size: 120%;
+}
+
+i.fas.fa-sign-out-alt {
+  font-size: 120%;
+}
+
+.no-shad {
+  box-shadow: none;
+}
+
+div.alert.alert-primary.text-center {
+  font-size: 125%;
+  font-weight: 600;
+}
+
+button.btn.btn-danger {
+   padding: 0.2rem;
+}
+
+.row-space {
+   margin-bottom: 50px;
+}
+
+.custom-info {
+   width: 100%;
+}
